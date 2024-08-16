@@ -7,7 +7,7 @@ import { authActions } from "../redux/store";
 import toast from "react-hot-toast";
 const Login = () => {
 
-    const baseURL = "https://blogwebsitebackend-igs8.onrender.com";
+    const baseURL = "https://blogwebsite-q5kx.onrender.com";
     const navigate = useNavigate();
     const dispatch = useDispatch();
     //state
@@ -102,8 +102,7 @@ const Login = () => {
         Not a user ? Please Register <
         /Button> < /
         Box > <
-        /form> < /
-        >
+        /form> < / >
     );
 };
 

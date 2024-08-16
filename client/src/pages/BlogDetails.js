@@ -9,7 +9,7 @@ const BlogDetails = () => {
     const navigate = useNavigate();
     const [inputs, setInputs] = useState({});
 
-    const baseURL = "https://blogwebsitebackend-igs8.onrender.com";
+    const baseURL = "https://blogwebsite-q5kx.onrender.com";
     // get blog details
     const getBlogDetail = async() => {
 
